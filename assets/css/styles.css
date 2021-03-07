@@ -30,3 +30,7 @@ header {
   font-family: sans-serif;
   padding: 10px 25px;
 }
+.contact:hover {
+  color: rgb(38, 38, 38);
+  background-color: rgb(250, 246, 246);
+}
