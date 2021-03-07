@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: rgb(38, 38, 38);
+  color: rgb(250, 246, 246);
+}
+.brand-name {
+  flex-shrink: 0;
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+}
+.nav-list {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.link,
+.contact {
+  text-decoration: none;
+  vertical-align: middle;
+  color: inherit;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+.contact {
+  border: 1px solid rgb(250, 246, 246);
+  font-family: sans-serif;
+  padding: 10px 25px;
+}
